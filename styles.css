@@ -28,11 +28,9 @@ body {
   color: var(--ink);
   background: var(--bg);
   line-height: 1.65;
-  font-size: 18px;
+  font-size: 17px;
   -webkit-font-smoothing: antialiased;
 }
-/* larger, more readable body text on desktop */
-@media (min-width: 1000px) { body { font-size: 20px; } }
 
 h1, h2, h3 { line-height: 1.2; font-weight: 700; color: var(--ink); }
 h1 { font-size: clamp(2rem, 5vw, 3rem); }
@@ -106,9 +104,9 @@ section:nth-of-type(even) { background: var(--bg-soft); }
 .hero .wrap { text-align: center; }
 .hero h1 { color: #fff; max-width: 20ch; margin-left: auto; margin-right: auto; }
 .hero .tagline { text-transform: uppercase; letter-spacing: .2em; font-size: .85rem; color: #cfe6d6; margin: 0 0 1.2rem; }
-.hero p { color: #eef4ef; max-width: 56ch; font-size: 1.25rem; margin-left: auto; margin-right: auto; }
+.hero p { color: #eef4ef; max-width: 60ch; font-size: 1.05rem; margin-left: auto; margin-right: auto; }
 .hero .proof { display: inline-block; text-align: left; gap: .6rem; margin: 1.6rem auto 2rem; padding: 0; list-style: none; }
-.hero .proof li { padding-left: 1.4rem; position: relative; color: #eef4ef; margin-bottom: .6rem; }
+.hero .proof li { padding-left: 1.4rem; position: relative; color: #eef4ef; margin-bottom: .6rem; font-size: 1.05rem; }
 .hero .proof li::before { content: ""; position: absolute; left: 0; top: .65em; width: .5rem; height: .5rem; background: var(--green); border-radius: 50%; }
 .hero .this-year { font-size: .98rem; color: #d7e6db; max-width: 60ch; margin: 0 auto; font-style: italic; }
 
