@@ -140,9 +140,11 @@ section:nth-of-type(even) { background: var(--bg-soft); }
 .card--work p:not(.meta) { order: 3; }
 
 /* About layout */
-.about-grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 2.4rem; align-items: start; }
+.about-grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 2.4rem; align-items: stretch; }
 .about-grid img { width: 100%; border-radius: 10px; display: block; }
-.about-grid figure img { aspect-ratio: 3 / 4; object-fit: cover; }
+.about-grid aside { display: flex; flex-direction: column; }
+.about-grid figure { flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column; }
+.about-grid figure img { flex: 1 1 auto; min-height: 280px; height: 100%; object-fit: cover; }
 .affil { background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 1.2rem 1.4rem; }
 .affil h3 { font-size: 1.15rem; }
 .affil ul { margin: 0 0 1rem; padding-left: 1.1rem; }
@@ -205,6 +207,7 @@ section:nth-of-type(even) { background: var(--bg-soft); }
 /* Responsive */
 @media (max-width: 760px) {
   .about-grid { grid-template-columns: 1fr; }
+  .about-grid figure img { flex: none; height: auto; aspect-ratio: 3 / 4; }
   .photo-row { grid-template-columns: 1fr; }
   .nav__links {
     display: none; position: absolute; top: 96px; right: 0; left: 0;
