@@ -1,38 +1,333 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecoimpacts | Strategic Conservation Advisory</title>
-    <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; background-color: #f4f7f5; color: #333; display: flex; align-items: center; justify-content: center; min-height: 100vh; }
-        .container { max-width: 650px; padding: 40px; background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); text-align: center; margin: 20px; }
-        .logo { max-width: 180px; margin-bottom: 20px; }
-        .profile-img { width: 100%; max-height: 320px; object-fit: cover; border-radius: 8px; border: 1px solid #eee; }
-        h1 { font-size: 2.2rem; margin: 0; color: #1a4731; letter-spacing: -0.5px; }
-        p { font-size: 1.15rem; line-height: 1.6; color: #4a5568; }
-        .highlight { font-weight: 600; color: #1a4731; }
-        .cta-button { display: inline-block; margin-top: 25px; padding: 14px 30px; background-color: #0077b5; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; transition: background 0.2s; }
-        .cta-button:hover { background-color: #005a87; }
-        figcaption { font-size: 0.85rem; color: #718096; margin-top: 10px; font-style: italic; }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ecoimpacts | Strategic Conservation Advisory</title>
+  <meta name="description" content="Ecoimpacts is the independent advisory practice of Rob Craig, linking global conservation policy and finance with the practical reality of protecting nature on the ground. Based in the Cotswolds, working internationally.">
+  <link rel="canonical" href="https://www.ecoimpacts.com/">
+
+  <!-- Open Graph / social -->
+  <meta property="og:title" content="Ecoimpacts | Strategic Conservation Advisory">
+  <meta property="og:description" content="Independent conservation advisory: protected-area management, conservation finance, evaluation and conflict-sensitive programming.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.ecoimpacts.com/">
+  <meta property="og:image" content="https://www.ecoimpacts.com/assets/mark.png">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <img src="logo.png" alt="Ecoimpacts Logo" class="logo">
 
-        <h1>Ecoimpacts</h1>
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="nav__logo" href="#top" aria-label="Ecoimpacts home">
+        <img src="assets/logo-mark-140.png" alt="" aria-hidden="true">
+        <span class="nav__wordmark">ecoimpacts<small>working with nature</small></span>
+      </a>
+      <button class="nav__toggle" aria-label="Menu" aria-expanded="false">&#9776;</button>
+      <ul class="nav__links" id="navlinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#work">Selected Work</a></li>
+        <li><a href="#insights">Insights</a></li>
+        <li><a href="#cotswolds">Cotswolds</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <p>A strategic advisory practice based in the Cotswolds, dedicated to ensuring conservation commitments translate into impact on the ground — bridging <strong>ambitious policy and plans</strong> with the <strong>complex reality</strong> of protecting nature in the world's most challenging landscapes.</p>
+  <main id="top">
 
-        <figure style="margin: 25px 0;">
-            <img src="profile.jpg" alt="Nyat airstrip at Boma National Park in South Sudan" class="profile-img">
-            <figcaption>Nyat airstrip, Boma National Park, South Sudan – May 2010</figcaption>
-        </figure>
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="home" style="--hero-img:url('assets/images/hero.jpg');">
+      <div class="wrap">
+        <h1>Turning conservation commitments into impact on the ground</h1>
+        <p>Ecoimpacts is the independent advisory practice of Rob Craig, linking global conservation policy and finance with the practical reality of protecting nature on the ground. Based in the Cotswolds, working wherever conservation is hardest.</p>
+        <ul class="proof">
+          <li>Over 25 years advising governments, conservation NGOs, foundations and donor agencies</li>
+          <li>Field-tested across Africa and Central Asia, from South Sudan and the DRC to Mozambique and Afghanistan</li>
+          <li>Work spanning protected-area management, conservation finance, evaluation, and conflict-sensitive programming</li>
+        </ul>
+        <p class="this-year">This year: a global conservation progress review for the United Nations Environment Programme (UNEP), and national park planning support to the Wildlife Conservation Society (WCS) in the Central African Republic.</p>
+        <div class="btns">
+          <a class="btn btn--primary" href="#contact">Start a conversation</a>
+          <a class="btn btn--ghost" href="https://www.linkedin.com/company/ecoimpacts/" target="_blank" rel="noopener">Connect on LinkedIn</a>
+        </div>
+      </div>
+    </section>
 
-        <p>This year's projects include a recently completed global conservation progress review for the <span class="highlight">United Nations Environment Programme (UNEP)</span> and ongoing work with the <span class="highlight">Wildlife Conservation Society (WCS)</span> on national park planning in the Central African Republic.</p>
+    <!-- ===== About ===== -->
+    <section id="about">
+      <div class="wrap">
+        <p class="eyebrow">About</p>
+        <h2>An advisory practice, not a firm</h2>
+        <div class="about-grid">
+          <div>
+            <p>Ecoimpacts is the consulting practice of Rob Craig, an environmental and sustainable-development specialist based in the United Kingdom, providing analysis and field-based advisory services where nature conservation, governance, and peacebuilding meet.</p>
+            <p>Ecoimpacts works internationally with governments, conservation NGOs, foundations and donor agencies to strengthen the design, management and evaluation of programmes in complex ecological and social settings. It draws on more than 25 years of experience across Africa and beyond to offer practical, evidence-based consultancy aimed at measurable conservation and governance outcomes.</p>
+            <p>The core portfolio has been international. A growing share of the work now sits closer to home: UK conservation, regenerative land use, and sustainable rural enterprise, informed by hands-on practice at a smallholding in the Cotswolds.</p>
+            <p>Clients work directly with Rob, who brings in a trusted network of specialists and partner organisations when an assignment calls for more depth. That means senior attention from the first conversation to the final report, and advice grounded in having done the work, not only studied it. A consistent thread runs through it: technical know-how is necessary but rarely sufficient. Lasting impact depends on political buy-in, local ownership, and finance that holds once the external support ends. The aim is never an island of excellence that collapses when the funding stops, but something the people who live with it can carry forward.</p>
 
-        <a href="https://www.linkedin.com/company/ecoimpacts/" class="cta-button" target="_blank" rel="noopener noreferrer">Connect with us on LinkedIn</a>
+            <h3 style="margin-top:1.6rem;">Backstory</h3>
+            <p>After degrees in geology and environmental economics at Edinburgh and Manchester, I spent 2001 and 2002 in Costa Rica, working for a smallholder organic farmers' association. The work promoted agro-ecological farming and marketing to support local livelihoods and the Mesoamerican Biological Corridor, focused on post-harvest quality control and organic and fairtrade certification.</p>
+            <p>I then moved to Kenya for what became, in hindsight, an eight-year apprenticeship in conservation, working for a small consultancy that provided technical support to conservation and natural-resource-management initiatives across eastern Africa.</p>
+            <p>From 2010 to 2017 I worked for the Wildlife Conservation Society, helping establish and strengthen national protected-area systems in South Sudan and Afghanistan as part of post-conflict reconstruction, and leading on the ground WCS's co-management partnership with the government of Mozambique in the Niassa Reserve.</p>
+            <p>My last major overseas posting, from 2018 to 2021, was in the DR Congo, supporting the rehabilitation and development of the Upemba and Kundelungu National Parks: securing funding from bilateral, multilateral and private donors, and advising on park operations.</p>
+            <p>In 2021 I returned to my family roots in the Cotswolds, where I continue to advise on international conservation initiatives under the Ecoimpacts brand while managing a smallholding.</p>
+          </div>
+
+          <aside>
+            <figure style="margin:0 0 1.2rem;">
+              <img src="assets/images/about.jpg" alt="A lone tree at dawn on the savanna of Upemba National Park, DR Congo">
+              <figcaption style="font-size:.78rem; color:var(--muted); margin-top:.4rem;">Upemba National Park, DR Congo. Photo: Rob Craig</figcaption>
+            </figure>
+            <div class="affil">
+              <h3>Honours and affiliations</h3>
+              <ul>
+                <li>Member of the Order of the British Empire (MBE) for services to conservation, 2018</li>
+                <li>Fellow of the Royal Geographical Society, since 2006</li>
+                <li>Member of the Geographical Club, since 2022</li>
+                <li>Adviser to the Endangered Species Protection Agency (ESPA), since 2001</li>
+                <li>Adviser to Alp Analytica, since 2024</li>
+              </ul>
+              <div class="voluntary">
+                <h3>Voluntary governance roles</h3>
+                <p class="note">Kept separate from the paid advisory work, to avoid any conflict of interest.</p>
+                <ul style="margin-top:.6rem;">
+                  <li>Trustee and Director of the Okapi Fund for Nature Conservation (DRC), since 2024. An unpaid role: Vice-Chair of the Board, member of the Grant Awarding Committee, and member of the Executive Committee.</li>
+                </ul>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Services ===== -->
+    <section id="services">
+      <div class="wrap">
+        <p class="eyebrow">Services</p>
+        <h2>Eight areas of advisory support</h2>
+        <p class="lead">Technical and strategic support joining field experience to strategic, policy and institutional perspective. Underpinned by research, analytical thinking, writing, workshop facilitation, capacity building, mentoring and communications.</p>
+        <div class="grid grid--services">
+
+          <div class="card">
+            <h3>Conservation area management</h3>
+            <p class="promise">Protected areas managed well enough to last.</p>
+            <p>Strengthening protected-area systems for better management effectiveness, operational resilience and biodiversity outcomes, with first-hand experience of delegated and co-management partnerships between governments and international partners.</p>
+          </div>
+
+          <div class="card">
+            <h3>Conservation planning</h3>
+            <p class="promise">Plans that are practical, fundable, and built to be delivered.</p>
+            <p>Integrated, participatory planning that links ecological priorities, operations and finance, from General Management Plans to business plans and strategic frameworks, including securing political approval and gazettement.</p>
+          </div>
+
+          <div class="card">
+            <h3>Project design and management</h3>
+            <p class="promise">End-to-end delivery, from concept to evaluation.</p>
+            <p>A strong record across the full project cycle, from concept design and proposal writing through implementation, reporting and evaluation, including service as Chief of Party on large USAID projects and lead on multilateral and private grants.</p>
+          </div>
+
+          <div class="card">
+            <h3>Monitoring and evaluation</h3>
+            <p class="promise">Know what is working, and show it.</p>
+            <p>M&amp;E systems that help organisations understand and demonstrate performance and conservation impact, and feed learning back into decisions. Co-author of the GEF Review of Outcomes to Impact (ROtI) framework and manual.</p>
+          </div>
+
+          <div class="card">
+            <h3>Institutional strengthening</h3>
+            <p class="promise">Organisations fit to carry the mission.</p>
+            <p>Aligning organisational structure, governance and performance with conservation impact, and building the partnerships and policy frameworks that let good work happen.</p>
+          </div>
+
+          <div class="card">
+            <h3>Conservation financing</h3>
+            <p class="promise">Funding that is durable and well governed.</p>
+            <p>Developing and evaluating conservation trust funds and their governance, alongside advisory work on business and biodiversity and private-sector engagement.</p>
+          </div>
+
+          <div class="card">
+            <h3>Natural resource-based enterprise</h3>
+            <p class="promise">Making the business case for conservation real.</p>
+            <p>Designing and evaluating initiatives that link livelihoods to biodiversity, strengthening the case for conservation-compatible development through value-chain analysis and green-economy design.</p>
+          </div>
+
+          <div class="card">
+            <h3>Risk, conflict-sensitivity &amp; peacebuilding</h3>
+            <p class="promise">Working effectively where the context is fragile.</p>
+            <p>Helping organisations operate in fragile and conflict-affected settings through conflict and risk analysis, conflict-sensitive design, and peace-positive programming. Co-author of IISD's conflict-sensitive conservation guidance.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <figure class="band" style="--band:url('assets/images/band-serengeti.jpg');">
+      <figcaption><span>Wildebeest migration, Serengeti National Park, Tanzania. Photo: Rob Craig</span></figcaption>
+    </figure>
+
+    <!-- ===== Selected Work ===== -->
+    <section id="work">
+      <div class="wrap">
+        <p class="eyebrow">Selected Work</p>
+        <h2>How the services come together in practice</h2>
+        <p class="lead">A selection of assignments spanning national park complexes, post-conflict reconstruction, donor-funded programmes, and independent evaluations.</p>
+        <div class="grid grid--work">
+
+          <div class="card card--work">
+            <img class="work-img" src="assets/images/work-drc.jpg" alt="Kiubo Falls, Upemba National Park, DR Congo">
+            <p class="meta">DR Congo · FPF &amp; Conservation Capital · 2018–2023</p>
+            <h3>Upemba &amp; Kundelungu National Parks</h3>
+            <p>Rehabilitation and governance planning for a 33,000 km² multi-park complex under a delegated management partnership with ICCN, and co-authorship of a business plan integrating ecological and financial systems.</p>
+          </div>
+
+          <div class="card card--work">
+            <img class="work-img" src="assets/images/work-niassa.jpg" alt="Aerial view of the Mbatamila headquarters and airstrip, Niassa Special Reserve, Mozambique">
+            <p class="meta">Mozambique · WCS · 2015–2017</p>
+            <h3>Niassa Special Reserve</h3>
+            <p>Reserve Manager and WCS Programme Director for the co-management partnership with Mozambique's wildlife authority (ANAC), with continuing advisory support to 2025.</p>
+          </div>
+
+          <div class="card card--work">
+            <img class="work-img" src="assets/images/work-sudan.jpg" alt="Nyat airstrip, Boma National Park, South Sudan">
+            <p class="meta">South Sudan · WCS · 2010–2014</p>
+            <h3>Protected-area network reconstruction</h3>
+            <p>Re-establishing national conservation-area networks, wildlife and tourism policy and law, and pilot multi-sectoral land-use planning with Jonglei State.</p>
+          </div>
+
+          <div class="card card--work">
+            <img class="work-img" src="assets/images/work-bwindi.jpg" alt="The forest boundary at Bwindi, Uganda, where farmland meets protected forest">
+            <p class="meta">Washington DC · GEF Evaluation Office · 2003–2009</p>
+            <h3>Review of Outcomes to Impact (ROtI)</h3>
+            <p>Developing and piloting the ROtI post-project assessment methodology across seven countries; co-author of the framework and manual.</p>
+          </div>
+
+          <div class="card card--work">
+            <img class="work-img" src="assets/images/work-rhino.jpg" alt="White rhinos at Lake Nakuru National Park, Kenya">
+            <p class="meta">Eastern &amp; Southern Africa · UNODC IES · 2024–2025</p>
+            <h3>Cross-Regional Wildlife Conservation Evaluation</h3>
+            <p>Wildlife expert on the joint evaluation team for the EU-funded programme implemented by UNODC, CITES and CMS.</p>
+          </div>
+
+          <div class="card card--work">
+            <img class="work-img" src="assets/images/work-masansa.jpg" alt="Masansa Falls, Kundelungu National Park, DR Congo">
+            <p class="meta">Congos &amp; Myanmar · Alp Analytica &amp; WWF · 2024</p>
+            <h3>Operating Framework for Fragile States</h3>
+            <p>Country reviews to inform WWF International's operating framework for working in fragile and conflict-affected states.</p>
+          </div>
+
+        </div>
+        <p style="margin-top:1.6rem; color:var(--muted); font-size:.95rem;">A fuller portfolio is available on request.</p>
+      </div>
+    </section>
+
+    <!-- ===== Insights ===== -->
+    <section id="insights">
+      <div class="wrap">
+        <p class="eyebrow">Insights</p>
+        <h2>Selected published work</h2>
+        <p class="lead">Work co-authored over the years, for those who want the detail behind the practice.</p>
+        <ul class="insights-list">
+          <li>Todd, D. and Craig, R. (2021). &#x2018;Assessing Progress towards Impacts in Environmental Programmes Using the Field Review of Outcomes to Impacts Methodology&#x2019;, in J. Uitto (ed.), <em>Evaluating Environment in International Development</em> (2nd ed.). Routledge. <a href="https://www.routledge.com/Evaluating-Environment-in-International-Development/Uitto/p/book/9780367557119" target="_blank" rel="noopener">Routledge &#8599;</a></li>
+          <li>Allan, J.R., Grossman, F., Craig, R., <em>et al.</em> (2017). &#x2018;Patterns of forest loss in one of Africa&#x2019;s last remaining wilderness areas: Niassa National Reserve, northern Mozambique&#x2019;, <em>PARKS</em> 23.2. IUCN. <a href="https://parksjournal.com/parks-23-2-november-2017/" target="_blank" rel="noopener">PARKS journal &#8599;</a></li>
+          <li>Conservation Development Centre and GEF Evaluation Office (2010). <em>The ROtI Handbook: Towards Enhancing the Impacts of Environmental Projects</em>. GEF Evaluation Office, Washington DC. <a href="https://www.gefieo.org/sites/default/files/documents/ops4-m02-roti.pdf" target="_blank" rel="noopener">PDF &#8599;</a></li>
+          <li>Campbell, I., Dalrymple, S., Craig, R. and Crawford, A. (2009). <em>Climate Change and Conflict: lessons from community conservancies in northern Kenya</em>. IISD and Saferworld. <a href="https://www.iisd.org/publications/climate-change-and-conflict-lessons-community-conservancies-northern-kenya" target="_blank" rel="noopener">IISD &#8599;</a></li>
+          <li>Hammill, A., Crawford, A., Craig, R., Malpas, R. and Matthew, R. (2009). <em>Conflict-Sensitive Conservation Practitioners&#x2019; Manual</em>. IISD, Winnipeg. <a href="https://www.iisd.org/publications/conflict-sensitive-conservation-practitioners-manual" target="_blank" rel="noopener">IISD &#8599;</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== Cotswolds ===== -->
+    <section id="cotswolds">
+      <div class="wrap">
+        <p class="eyebrow">From the Cotswolds</p>
+        <h2>Practising what the work advises</h2>
+        <p>I live on a five-acre smallholding in the south Cotswolds, with grazing for cattle and sheep, a walled vegetable garden, a small orchard and a wildlife pond. The aim is to make it more self-sufficient and resilient, drawing on regenerative and permaculture principles.</p>
+        <p>It also keeps the international work honest. The same questions of stewardship, resilience and trade-off show up here, at a scale you can walk across in an afternoon.</p>
+        <div class="photo-pair">
+          <figure>
+            <img src="assets/images/field-before.jpg" alt="The hay meadow in full tall grass before cutting">
+            <figcaption>The hay meadow before cutting, June</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/images/field-after.jpg" alt="A trailer loaded with hay bales on the cut field">
+            <figcaption>Hay made: bales off the same field, a week later</figcaption>
+          </figure>
+        </div>
+        <div class="photo-grid">
+          <figure>
+            <img src="assets/images/cotswold-1.jpg" alt="An Aberdeen Angus in the field, with the Cotswold landscape beyond">
+            <figcaption>Aberdeen Angus on the smallholding</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/images/cotswold-2.jpg" alt="The walled vegetable garden in late summer">
+            <figcaption>The walled vegetable garden</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/images/cotswold-3.jpg" alt="The medlar tree with baskets of harvested fruit beneath">
+            <figcaption>Medlar harvest</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <figure class="band" style="--band:url('assets/images/band-rift.jpg');">
+      <figcaption><span>The Rift Valley under storm light, Kenya. Photo: Rob Craig</span></figcaption>
+    </figure>
+
+    <!-- ===== Contact ===== -->
+    <section id="contact">
+      <div class="wrap">
+        <p class="eyebrow">Contact</p>
+        <h2>Start a conversation</h2>
+        <p class="lead">If you are commissioning advisory work, scoping a programme, or looking for an experienced hand in a difficult context, I would be glad to hear from you.</p>
+        <ul class="contact-list">
+          <li>Email: <a href="mailto:enquiries@ecoimpacts.com">enquiries@ecoimpacts.com</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/robhcraig/" target="_blank" rel="noopener">linkedin.com/in/robhcraig</a> · <a href="https://www.linkedin.com/company/ecoimpacts/" target="_blank" rel="noopener">Ecoimpacts company page</a></li>
+          <li>Based in the Cotswolds, United Kingdom, working internationally.</li>
+        </ul>
+        <div class="btns" style="margin-top:1.4rem;">
+          <a class="btn btn--primary" href="mailto:enquiries@ecoimpacts.com">Email Ecoimpacts</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="wrap foot-flex">
+      <div>
+        <p class="strap">Ecoimpacts — working with nature</p>
+        <p style="margin:.4rem 0 0;">&copy; <span id="yr"></span> Rob Craig. Photography by Rob Craig.</p>
+      </div>
+      <div>
+        <a href="mailto:enquiries@ecoimpacts.com">enquiries@ecoimpacts.com</a>
+      </div>
     </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    var toggle = document.querySelector('.nav__toggle');
+    var links = document.getElementById('navlinks');
+    toggle.addEventListener('click', function () {
+      var open = links.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    links.addEventListener('click', function (e) {
+      if (e.target.tagName === 'A') links.classList.remove('open');
+    });
+    // Year
+    document.getElementById('yr').textContent = new Date().getFullYear();
+  </script>
+
 </body>
 </html>
