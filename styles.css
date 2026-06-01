@@ -142,11 +142,11 @@ section:nth-of-type(even) { background: var(--bg-soft); }
 .about-grid img { width: 100%; border-radius: 10px; display: block; }
 .about-grid figure img { aspect-ratio: 3 / 4; object-fit: cover; }
 .affil { background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 1.2rem 1.4rem; }
-.affil h3 { font-size: 1rem; }
+.affil h3 { font-size: 1.15rem; }
 .affil ul { margin: 0 0 1rem; padding-left: 1.1rem; }
-.affil li { font-size: .92rem; color: var(--muted); margin-bottom: .35rem; }
+.affil li { font-size: 1.02rem; color: var(--muted); margin-bottom: .45rem; }
 .affil .voluntary { border-top: 1px solid var(--line); padding-top: 1rem; }
-.affil .voluntary .note { font-size: .82rem; font-style: italic; color: var(--teal); }
+.affil .voluntary .note { font-size: .95rem; font-style: italic; color: var(--teal); }
 
 /* Image placeholder */
 .imgph {
@@ -166,7 +166,7 @@ section:nth-of-type(even) { background: var(--bg-soft); }
 .photo-pair img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 10px; display: block; }
 /* uniform square crops for an even-topped row (cow framed in full) */
 .photo-grid img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 10px; display: block; }
-.photo-pair figcaption, .photo-grid figcaption { font-size: .82rem; color: var(--muted); margin-top: .4rem; }
+.photo-pair figcaption, .photo-grid figcaption { font-size: .95rem; color: var(--muted); margin-top: .4rem; }
 @media (max-width: 640px) { .photo-pair { grid-template-columns: 1fr; } }
 
 /* Section band photos (full-width) */
@@ -178,7 +178,7 @@ section:nth-of-type(even) { background: var(--bg-soft); }
 .band figcaption {
   position: absolute; left: 0; right: 0; bottom: 0;
   padding: 1.4rem var(--pad) .8rem;
-  font-size: .8rem; color: #fff;
+  font-size: .9rem; color: #fff;
   background: linear-gradient(to top, rgba(20,39,29,.7), rgba(20,39,29,0));
 }
 .band figcaption span { max-width: var(--maxw); margin: 0 auto; display: block; }
