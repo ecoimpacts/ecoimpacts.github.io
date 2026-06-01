@@ -76,6 +76,10 @@ a { color: var(--green-deep); }
 }
 .nav__links a:hover { color: var(--green-deep); border-bottom-color: var(--green); }
 .nav__toggle { display: none; background: none; border: 0; font-size: 1.6rem; color: var(--ink); cursor: pointer; }
+.nav__links .lang { display: flex; gap: .45rem; align-items: center; }
+.nav__links .lang span { color: var(--line); }
+.nav__links .lang a { padding: 0; border-bottom: 0; }
+.nav__links .lang a[aria-current="page"] { color: var(--green-deep); border-bottom: 2px solid var(--green); }
 
 /* Sections */
 section { padding: clamp(3rem, 7vw, 5.5rem) 0; }
