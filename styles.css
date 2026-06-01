@@ -91,7 +91,7 @@ section p { max-width: 74ch; }
 #contact .btns { justify-content: center; }
 section:nth-of-type(even) { background: var(--bg-soft); }
 .eyebrow { font-size: clamp(1.7rem, 4vw, 2.3rem); font-weight: 800; letter-spacing: .005em; color: var(--green-deep); margin: 0 0 .25rem; line-height: 1.15; }
-.lead { font-size: 1.3rem; color: var(--muted); max-width: 60ch; }
+.lead { font-size: 1.0625rem; color: var(--muted); max-width: 70ch; }
 
 /* Hero */
 .hero {
@@ -104,9 +104,9 @@ section:nth-of-type(even) { background: var(--bg-soft); }
 .hero .wrap { text-align: center; }
 .hero h1 { color: #fff; max-width: 20ch; margin-left: auto; margin-right: auto; }
 .hero .tagline { text-transform: uppercase; letter-spacing: .2em; font-size: .85rem; color: #cfe6d6; margin: 0 0 1.2rem; }
-.hero p { color: #eef4ef; max-width: 60ch; font-size: 1.05rem; margin-left: auto; margin-right: auto; }
+.hero p { color: #eef4ef; max-width: 60ch; font-size: 1.0625rem; margin-left: auto; margin-right: auto; }
 .hero .proof { display: inline-block; text-align: left; gap: .6rem; margin: 1.6rem auto 2rem; padding: 0; list-style: none; }
-.hero .proof li { padding-left: 1.4rem; position: relative; color: #eef4ef; margin-bottom: .6rem; font-size: 1.05rem; }
+.hero .proof li { padding-left: 1.4rem; position: relative; color: #eef4ef; margin-bottom: .6rem; font-size: 1.0625rem; }
 .hero .proof li::before { content: ""; position: absolute; left: 0; top: .65em; width: .5rem; height: .5rem; background: var(--green); border-radius: 50%; }
 .hero .this-year { font-size: .98rem; color: #d7e6db; max-width: 60ch; margin: 0 auto; font-style: italic; }
 
@@ -132,7 +132,7 @@ section:nth-of-type(even) { background: var(--bg-soft); }
   padding: 1.3rem 1.4rem;
 }
 .card .promise { font-style: italic; color: var(--teal); margin: 0 0 .6rem; }
-.card p { font-size: 1.02rem; color: var(--muted); margin: 0; }
+.card p { font-size: 1.0625rem; color: var(--muted); margin: 0; }
 .card--work { display: flex; flex-direction: column; }
 .card--work .work-img { order: 0; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px; margin: 0 0 .9rem; display: block; }
 .card--work h3 { font-size: 1.15rem; order: 1; }
