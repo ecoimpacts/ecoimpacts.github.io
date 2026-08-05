@@ -216,6 +216,6 @@ section:nth-of-type(even) { background: var(--bg-soft); }
     padding: .5rem var(--pad);
   }
   .nav__links.open { display: flex; }
-  .nav__links a { padding: .7rem 0; border-bottom: 1px solid var(--line); }
+  .nav__links a { padding: .7rem 0; }
   .nav__toggle { display: block; }
 }
